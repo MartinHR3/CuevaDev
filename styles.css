@@ -52,3 +52,9 @@ button:hover {
         font-size: 14px;
     }
 }
+
+img{
+    padding: 10px;
+    max-width: 20%;
+    margin: auto;
+}
