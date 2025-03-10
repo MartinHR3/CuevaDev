@@ -55,7 +55,15 @@ button:hover {
 
 img {
     display: block;
-    max-width: 100%;
+    max-width: 80%; /* Reduce el tamaño al 80% del contenedor */
     height: auto;
-    margin: 0 auto;
+    margin: 10px auto;
+    border-radius: 10px; /* Suaviza bordes si quieres */
 }
+
+@media screen and (max-width: 600px) {
+    img {
+        max-width: 60%; /* En móviles, la imagen será más pequeña */
+    }
+}
+
