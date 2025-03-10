@@ -17,17 +17,19 @@ body {
 
 h1 {
     color: #ff4081;
+    font-size: 24px; /* Ajustado para mejor visualización */
 }
 
 p {
     font-size: 18px;
+    margin: 10px 0;
 }
 
 button {
     background-color: #ff4081;
     color: white;
     border: none;
-    padding: 10px 20px;
+    padding: 12px 25px;
     margin-top: 20px;
     font-size: 16px;
     cursor: pointer;
@@ -47,6 +49,12 @@ button:hover {
     .container {
         padding: 15px;
     }
+    h1 {
+        font-size: 20px; /* Título más pequeño en pantallas pequeñas */
+    }
+    p {
+        font-size: 16px; /* Texto más pequeño en pantallas pequeñas */
+    }
     button {
         width: 100%;
         font-size: 14px;
@@ -55,15 +63,14 @@ button:hover {
 
 img {
     display: block;
-    max-width: 80%; /* Reduce el tamaño al 80% del contenedor */
+    max-width: 100%; /* Asegura que la imagen no exceda el 100% del contenedor */
     height: auto;
     margin: 10px auto;
-    border-radius: 10px; /* Suaviza bordes si quieres */
+    border-radius: 10px;
 }
 
 @media screen and (max-width: 600px) {
     img {
-        max-width: 60%; /* En móviles, la imagen será más pequeña */
+        max-width: 80%; /* En móviles, la imagen será un poco más pequeña */
     }
 }
-
